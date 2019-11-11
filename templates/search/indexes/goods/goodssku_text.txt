@@ -1,0 +1,6 @@
+#指定根据哪些字段建立索引
+{{object.name}}
+{{object.desc}}
+
+
+

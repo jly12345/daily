@@ -24,6 +24,7 @@ urlpatterns = [
     path('cart/', include('apps.cart.urls', namespace='cart')),
     path('order/', include('apps.order.urls', namespace='order')),
     path('tinymce/', include('tinymce.urls')),
+    path('search', include('haystack.urls')),#全文检索
     path('', include('apps.goods.urls', namespace='goods')),
 
 ]
